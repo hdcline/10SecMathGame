@@ -62,7 +62,7 @@ $(document).ready(function () {
       }
       seconds++;
       score++;
-      $('#score').text('Score: ' + score);
+      $('#score').text(score);
       randEquation = getRandomEquation();
       return true;
     }
@@ -95,7 +95,7 @@ $(document).ready(function () {
     console.log(seconds);
 
     $('#right-wrong').text('');
-    $('#score').text('Score: ' + score);
+    $('#score').text(score);
     restart.prop('disabled', true);
     $('.seconds').text('10 Seconds');
     tf = true;

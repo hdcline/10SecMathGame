@@ -27,7 +27,7 @@ $(document).ready(function () {
         '</div>');*/
         restart.prop('disabled', false);
         answer.prop('disabled', true);
-
+        answer.val('');
       }
       $('.seconds').text(seconds + ' Seconds');
       seconds--;
